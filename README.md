@@ -21,6 +21,9 @@ Add to your Claude MCP config:
 }
 ```
 
+Add to your system prompt:
+> The learning-tracker tool logs concepts the user asked about so they can review it later. Please use the learning-tracker tool to track a concept whenever the user asks for definition or clarification of a technical concept or best practices in any domain (eg.  daily life hacks, machine learning, software engineering, computer science, coding, physics, math, statistics). During review, only mention the concept title at first, and the user will attempt to explain it.
+
 ## Tools
 
 | Tool | Description |
